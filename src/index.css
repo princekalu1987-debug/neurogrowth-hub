@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Fraunces', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF8F5;
+    color: #222623;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom utility styles for refined editorial look */
+.bg-ivory {
+  background-color: #FAF8F5;
+}
+
+.bg-sand-light {
+  background-color: #F5EFE6;
+}
+
+.bg-sage-dark {
+  background-color: #31493F;
+}
+
+.bg-sage-main {
+  background-color: #4A6B5D;
+}
+
+.bg-sage-soft {
+  background-color: #EEF3F0;
+}
+
+.text-sage-main {
+  color: #4A6B5D;
+}
+
+.text-sage-dark {
+  color: #31493F;
+}
+
+.text-terracotta {
+  color: #C86D51;
+}
+
+.bg-terracotta {
+  background-color: #C86D51;
+}
+
+.bg-terracotta-soft {
+  background-color: #FAEEEA;
+}
+
+.border-sand {
+  border-color: #E6DFD5;
+}
+
+/* Smooth focus rings */
+*:focus-visible {
+  outline: 2px solid #4A6B5D;
+  outline-offset: 2px;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "NeuroGrowth Hub",
+  "description": "Individualized child development, speech, behavioural, and educational support organization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
