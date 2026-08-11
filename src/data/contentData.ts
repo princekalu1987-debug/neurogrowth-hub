@@ -1,9 +1,19 @@
-import { ServiceItem, ApproachStep, Testimonial, FeaturePillar, ResourceItem, AssessmentQuestion } from '../types';
+import {
+  ServiceItem,
+  ApproachStep,
+  Testimonial,
+  FeaturePillar,
+  ResourceItem,
+  AssessmentQuestion
+} from '../types';
 
-export const HERO_IMAGE_PATH = '/src/assets/images/hero_child_therapy_1786401550383.jpg';
-export const ABOUT_IMAGE_PATH = '/src/assets/images/about_therapist_child_1786401564278.jpg';
-export const FAMILY_IMAGE_PATH = '/src/assets/images/family_consultation_1786401576938.jpg';
+import heroImage from '../assets/images/hero_child_therapy_1786401550383.jpg';
+import aboutImage from '../assets/images/about_therapist_child_1786401564278.jpg';
+import familyImage from '../assets/images/family_consultation_1786401576938.jpg';
 
+export const HERO_IMAGE_PATH = heroImage;
+export const ABOUT_IMAGE_PATH = aboutImage;
+export const FAMILY_IMAGE_PATH = familyImage;
 export const ORGANISATION_INFO = {
   name: 'NeuroGrowth Hub',
   formerName: 'Little Treasures Consult',
